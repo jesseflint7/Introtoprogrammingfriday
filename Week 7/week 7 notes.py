@@ -96,13 +96,13 @@
 #         #print the current value from both loops 
 #         print(number,number2)
 
-#choosing the right loop
-#use a while loop when repetition depends on a condition
-#keep looping while answer is not yes
-answer=input('Enter yes ')
-while answer !='yes':
-    #ask the user again
-    answer=input('Enter yes ')
+# #choosing the right loop
+# #use a while loop when repetition depends on a condition
+# #keep looping while answer is not yes
+# answer=input('Enter yes ')
+# while answer !='yes':
+#     #ask the user again
+#     answer=input('Enter yes ')
 
 #use a for loop when working through items
 #go through each item in the list
@@ -111,8 +111,8 @@ for item in itemlist:
     #print the current item
     print(item)
 
-#use for with range() when working through numbers
-#loop through number 1-10
-for number in range(1,11):
-    #print the current number
-    print(number)
+# #use for with range() when working through numbers
+# #loop through number 1-10
+# for number in range(1,11):
+#     #print the current number
+#     print(number)
