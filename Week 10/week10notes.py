@@ -24,12 +24,12 @@
 #     print("Hello, {name}")
 # name=input("Enter your name: ")
 # greet(name)
-# greet("Carl")
+# # greet("Carl")
 # #Parameters a re like blanks. Arguments fill them in
 
-#the only time we need parameters is when we are passing information from outside the function, into the function
+# #the only time we need parameters is when we are passing information from outside the function, into the function
 # def greet():
-#     name=input("Enter you name")
+#     name=input("Enter you name ")
 #     print(f"Hello, {name}")
 # greet()
 
@@ -56,17 +56,17 @@
 
 #print is for the user. return is for the program
 
-# #function example
-# #calc program
-# def calc(num1,num2):
-#     operator=input("What sort of math do you want to do: +,-,*,/")
-#     #use if/else to decide what to do
-#     #perform the math
-#     #print or return the result
-#     if operator=="+":
-#         return num1+num2
-# #function now has the value of 4
-# print(calc(1,3)) 
+#function example
+#calc program
+def calc(num1,num2):
+    operator=input("What sort of math do you want to do: +,-,*,/")
+    #use if/else to decide what to do
+    #perform the math
+    #print or return the result
+    if operator=="+":
+        return num1+num2
+#function now has the value of 4
+print(calc(1,3)) 
 
 # #fake loop
 # #a function can call itself, theis is called recursion
